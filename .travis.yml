@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - 1.6
+
+script:
+  - go build
+  - go fmt ./...
+  - go vet ./...
